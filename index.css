@@ -1,0 +1,59 @@
+.card-title {
+  white-space: nowrap;
+  /* max-height: 60px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 5px;
+}
+
+.card-text {
+  max-height: 70px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+.card-body {
+  background: #cbcbcb;
+  border: none;
+  outline: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.card img {
+  /* width: 286.4px; */
+  height: 203.2px;
+}
+body {
+  background-color: #45b0a4;
+}
+.text-center {
+  color: rgba(0, 78, 47, 1);
+}
+.nav-link {
+  color: cadetblue;
+}
+.navbar-brand {
+  color: cyan;
+}
+.btn-sm {
+  background: #00a166;
+  color: white;
+}
+.btn {
+  background: #00a166;
+  color: white;
+  border: 1px solid #00a349;
+}
+.badge {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
+.hello {
+  margin-top: 100px;
+}
